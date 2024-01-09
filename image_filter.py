@@ -1,3 +1,7 @@
+# This code will filter and keep the images with 2 clear red lines (the path) 
+# appear in the bottom half of the images, indicating the Donkeycar is on track
+# and the image is good for training the model
+
 import numpy as np
 import cv2
 import os
